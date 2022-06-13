@@ -1,4 +1,70 @@
+body
+{
+    font-family: Lato;
+}
+
 h1
 {
     font-size: 100pt;
+}
+
+.best-project
+{
+    max-height: 500px;
+    margin: 50px;
+}
+
+.add-project
+{
+    margin: 10px;
+}
+
+img
+{
+    /* width: 560px;
+    height: 315px; */
+    margin: 20px;
+    transition: 0.25s;
+}
+
+.project:hover
+{
+    opacity: 0.25;
+}
+
+.hover-container 
+{
+  position: relative;
+  text-align: center;
+}
+
+.hover-text
+{
+    display: none;
+    z-index:-100;
+    position:absolute;    
+    color:black;
+    font-size:32px;
+    font-weight:bold;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.hover-text
+{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
 }
