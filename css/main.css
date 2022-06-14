@@ -68,3 +68,23 @@ img
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 768px) 
+{
+    /* For mobile phones: */
+    /* [class*="col-"] 
+    {
+      width: 100%;
+    } */
+
+    .row
+    {
+        display: block;
+    }
+
+    p
+    {
+        color: red;
+    }
+
+}
