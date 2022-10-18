@@ -125,9 +125,9 @@ img
 
 #about
 {
-    width: 75%;
+    width: 65%;
     display: block;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 30px;
 }
 
@@ -141,6 +141,85 @@ img
     width: 20%;
     float: left;
     margin-top: 0px;
+}
+
+.modal-content
+{
+    height: 98%;
+}
+
+.modal h5
+{
+    /* Probably need to change this */
+    padding-left: 45%;
+
+    font-size: 50pt;
+}
+
+.modal-body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.project-left-images
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 75%;
+}
+
+.project-right-text
+{
+    width: 75%;
+    font-size: 20pt;
+}
+
+.project-images
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    flex-shrink: 4;
+    width: 100%;
+    height: auto;
+}
+
+.project-images img
+{
+    /* width: 500px;
+    height: 281px; */
+    max-width: 50%;
+    height: auto;
+}
+
+.project-images iframe
+{
+    margin-top: 20px;
+    /* width: 500px;
+    height: 281px; */
+    height: auto;
+}
+
+.project-carousel
+{
+    width: 100%;
+    height: auto;
+}
+
+.project-carousel img
+{
+    /* display: block; */
+    /* height: 50%;
+    width: 50%; */
+    /* max-height: 772.7px; */
+    /* max-width: 500px; */
+
+    /* float: left;
+    width:  500px;
+    height: 500px;
+    object-fit: cover; */
 }
 
 
@@ -157,4 +236,19 @@ img
         display: block;
     }
 
+}
+
+@media screen and (max-width: 1400px)
+{
+    /* .project-carousel
+    {
+        width: 640px;
+        height: auto;
+    }
+
+    .project-images
+    {
+        width: 640px;
+        height: auto;
+    } */
 }
