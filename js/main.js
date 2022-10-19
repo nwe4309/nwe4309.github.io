@@ -21,3 +21,23 @@ document.querySelector("#SeekingSolanum").addEventListener("mouseout",function()
 
 document.querySelector("#Snowman").addEventListener("mouseover",function() {Hover(true,"Snowman")});
 document.querySelector("#Snowman").addEventListener("mouseout",function() {Hover(false,"Snowman")});
+
+function stopAllVideos()
+{
+    let modals = document.querySelectorAll("modal");
+
+    for(let i = 0; i < modals.length; i++)
+    {
+        if(modals[i].display === 'none')
+        {
+            console.log("yes");
+        }
+    }
+
+    let videos = document.querySelectorAll("iframe");
+
+    for(let i = 0; i < videos.length; i ++)
+    {
+        videos[i].src = videos[i].src;
+    } 
+}

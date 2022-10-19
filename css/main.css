@@ -148,12 +148,11 @@ img
     height: 98%;
 }
 
+
 .modal h5
 {
-    /* Probably need to change this */
-    padding-left: 45%;
-
     font-size: 50pt;
+    white-space: nowrap;
 }
 
 .modal-body
