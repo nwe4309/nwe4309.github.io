@@ -39,6 +39,8 @@ body
 .add-project
 {
     margin: 10px;
+
+    width: 100%;
 }
 
 img
@@ -172,7 +174,7 @@ img
 .project-right-text
 {
     width: 75%;
-    font-size: 20pt;
+    font-size: 0.9vw;
 }
 
 .project-images
