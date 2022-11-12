@@ -19,6 +19,9 @@ document.querySelector("#MispelImg").addEventListener("mouseout",function() {Hov
 document.querySelector("#SeekingSolanumImg").addEventListener("mouseover",function() {Hover(true,"SeekingSolanum")});
 document.querySelector("#SeekingSolanumImg").addEventListener("mouseout",function() {Hover(false,"SeekingSolanum")});
 
+document.querySelector("#ReincarnationImg").addEventListener("mouseover",function() {Hover(true,"Reincarnation")});
+document.querySelector("#ReincarnationImg").addEventListener("mouseout",function() {Hover(false,"Reincarnation")});
+
 document.querySelector("#SnowmanImg").addEventListener("mouseover",function() {Hover(true,"Snowman")});
 document.querySelector("#SnowmanImg").addEventListener("mouseout",function() {Hover(false,"Snowman")});
 
