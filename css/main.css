@@ -125,6 +125,12 @@ img
     padding: 2px;
 }
 
+#resumes .carousel-item
+{
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
 #about
 {
     width: 65%;
